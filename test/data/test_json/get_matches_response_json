@@ -1,0 +1,1917 @@
+{
+    "filters": {
+        "season": "2021",
+        "matchday": "34"
+    },
+    "resultSet": {
+        "count": 9,
+        "first": "2022-05-14",
+        "last": "2022-05-14",
+        "played": 9
+    },
+    "competition": {
+        "id": 2002,
+        "name": "Bundesliga",
+        "code": "BL1",
+        "type": "LEAGUE",
+        "emblem": "https://crests.football-data.org/BL1.png"
+    },
+    "matches": [
+        {
+            "area": {
+                "id": 2088,
+                "name": "Germany",
+                "code": "DEU",
+                "flag": "https://crests.football-data.org/759.svg"
+            },
+            "competition": {
+                "id": 2002,
+                "name": "Bundesliga",
+                "code": "BL1",
+                "type": "LEAGUE",
+                "emblem": "https://crests.football-data.org/BL1.png"
+            },
+            "season": {
+                "id": 742,
+                "startDate": "2021-08-13",
+                "endDate": "2022-05-14",
+                "currentMatchday": 34,
+                "winner": null,
+                "stages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "id": 329400,
+            "utcDate": "2022-05-14T13:30:00Z",
+            "status": "FINISHED",
+            "minute": "90",
+            "injuryTime": 5,
+            "attendance": null,
+            "venue": "Signal Iduna Park",
+            "matchday": 34,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2022-05-15T03:33:01Z",
+            "homeTeam": {
+                "id": 4,
+                "name": "Borussia Dortmund",
+                "shortName": "Dortmund",
+                "tla": "BVB",
+                "crest": "https://crests.football-data.org/4.png",
+                "coach": {
+                    "id": 15111,
+                    "name": "Marco Rose",
+                    "nationality": "Germany"
+                },
+                "leagueRank": 2,
+                "formation": "3-4-2-1",
+                "lineup": [],
+                "bench": []
+            },
+            "awayTeam": {
+                "id": 9,
+                "name": "Hertha BSC",
+                "shortName": "Hertha BSC",
+                "tla": "BSC",
+                "crest": "https://crests.football-data.org/9.svg",
+                "coach": {
+                    "id": 156101,
+                    "name": "Felix Magath",
+                    "nationality": "Germany"
+                },
+                "leagueRank": 15,
+                "formation": "4-2-3-1",
+                "lineup": [],
+                "bench": []
+            },
+            "score": {
+                "winner": "HOME_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "halfTime": {
+                    "home": 0,
+                    "away": 1
+                }
+            },
+            "goals": [
+                {
+                    "minute": 18,
+                    "injuryTime": null,
+                    "type": "PENALTY",
+                    "team": {
+                        "id": 9,
+                        "name": "Hertha BSC"
+                    },
+                    "scorer": {
+                        "id": 9466,
+                        "name": "Ishak Belfodil"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 0,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 68,
+                    "injuryTime": null,
+                    "type": "PENALTY",
+                    "team": {
+                        "id": 4,
+                        "name": "Borussia Dortmund"
+                    },
+                    "scorer": {
+                        "id": 38101,
+                        "name": "Erling Haaland"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 1,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 84,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 4,
+                        "name": "Borussia Dortmund"
+                    },
+                    "scorer": {
+                        "id": 150817,
+                        "name": "Youssoufa Moukoko"
+                    },
+                    "assist": {
+                        "id": 125010,
+                        "name": "Jude Bellingham"
+                    },
+                    "score": {
+                        "home": 2,
+                        "away": 1
+                    }
+                }
+            ],
+            "penalties": [
+                {
+                    "player": {
+                        "id": 9466,
+                        "name": "Ishak Belfodil"
+                    },
+                    "team": {
+                        "id": 9,
+                        "name": "Hertha BSC"
+                    },
+                    "scored": true                    
+                },
+                {
+                    "player": {
+                        "id": 38101,
+                        "name": "Erling Haaland"
+                    },
+                    "team": {
+                        "id": 4,
+                        "name": "Borussia Dortmund"
+                    },
+                    "scored": true                    
+                }
+            ],
+            "bookings": [],
+            "substitutions": [],
+            "odds": {
+                "homeWin": 1.3,
+                "draw": 6.08,
+                "awayWin": 8.36
+            },
+            "referees": [
+                {
+                    "id": 15747,
+                    "name": "Christian Gittelmann",
+                    "type": "ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 8827,
+                    "name": "Eduard Beitinger",
+                    "type": "ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57532,
+                    "name": "Frank Willenborg",
+                    "type": "FOURTH_OFFICIAL",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 43943,
+                    "name": "Tobias Stieler",
+                    "type": "REFEREE",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 43922,
+                    "name": "Benjamin Brand",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57678,
+                    "name": "Philipp Hüwe",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                }
+            ]
+        },
+        {
+            "area": {
+                "id": 2088,
+                "name": "Germany",
+                "code": "DEU",
+                "flag": "https://crests.football-data.org/759.svg"
+            },
+            "competition": {
+                "id": 2002,
+                "name": "Bundesliga",
+                "code": "BL1",
+                "type": "LEAGUE",
+                "emblem": "https://crests.football-data.org/BL1.png"
+            },
+            "season": {
+                "id": 742,
+                "startDate": "2021-08-13",
+                "endDate": "2022-05-14",
+                "currentMatchday": 34,
+                "winner": null,
+                "stages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "id": 329402,
+            "utcDate": "2022-05-14T13:30:00Z",
+            "status": "FINISHED",
+            "minute": "90",
+            "injuryTime": 8,
+            "attendance": 30210,
+            "venue": "BayArena",
+            "matchday": 34,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2022-05-15T03:33:01Z",
+            "homeTeam": {
+                "id": 3,
+                "name": "Bayer 04 Leverkusen",
+                "shortName": "Leverkusen",
+                "tla": "B04",
+                "crest": "https://crests.football-data.org/3.png",
+                "coach": {
+                    "id": 50157,
+                    "name": "Gerardo Seoane",
+                    "nationality": "Switzerland"
+                },
+                "leagueRank": 3,
+                "formation": "4-4-2",
+                "lineup": [],
+                "bench": []
+            },
+            "awayTeam": {
+                "id": 17,
+                "name": "SC Freiburg",
+                "shortName": "Freiburg",
+                "tla": "SCF",
+                "crest": "https://crests.football-data.org/17.svg",
+                "coach": {
+                    "id": 45083,
+                    "name": "Christian Streich",
+                    "nationality": "Germany"
+                },
+                "leagueRank": 5,
+                "formation": "4-2-3-1",
+                "lineup": [],
+                "bench": []
+            },
+            "score": {
+                "winner": "HOME_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "halfTime": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": 54,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 3,
+                        "name": "Bayer 04 Leverkusen"
+                    },
+                    "scorer": {
+                        "id": 154,
+                        "name": "Lucas Alario"
+                    },
+                    "assist": {
+                        "id": 1826,
+                        "name": "Patrik Schick"
+                    },
+                    "score": {
+                        "home": 1,
+                        "away": 0
+                    }
+                },
+                {
+                    "minute": 88,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 17,
+                        "name": "SC Freiburg"
+                    },
+                    "scorer": {
+                        "id": 9489,
+                        "name": "Janik Haberer"
+                    },
+                    "assist": {
+                        "id": 6654,
+                        "name": "Jonathan Schmid"
+                    },
+                    "score": {
+                        "home": 1,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 90,
+                    "injuryTime": 7,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 3,
+                        "name": "Bayer 04 Leverkusen"
+                    },
+                    "scorer": {
+                        "id": 11720,
+                        "name": "Exequiel Palacios"
+                    },
+                    "assist": {
+                        "id": 7555,
+                        "name": "Mitchel Bakker"
+                    },
+                    "score": {
+                        "home": 2,
+                        "away": 1
+                    }
+                }
+            ],
+            "penalties": [],
+            "bookings": [],
+            "substitutions": [],
+            "odds": {
+                "homeWin": 2.54,
+                "draw": 3.88,
+                "awayWin": 2.46
+            },
+            "referees": [
+                {
+                    "id": 338,
+                    "name": "Norbert Grudzinski",
+                    "type": "ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 339,
+                    "name": "Sascha Thielert",
+                    "type": "ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 65424,
+                    "name": "Robin Braun",
+                    "type": "FOURTH_OFFICIAL",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 15824,
+                    "name": "Sven Jablonski",
+                    "type": "REFEREE",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57539,
+                    "name": "Tobias Welz",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57506,
+                    "name": "Markus Schüller",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                }
+            ]
+        },
+        {
+            "area": {
+                "id": 2088,
+                "name": "Germany",
+                "code": "DEU",
+                "flag": "https://crests.football-data.org/759.svg"
+            },
+            "competition": {
+                "id": 2002,
+                "name": "Bundesliga",
+                "code": "BL1",
+                "type": "LEAGUE",
+                "emblem": "https://crests.football-data.org/BL1.png"
+            },
+            "season": {
+                "id": 742,
+                "startDate": "2021-08-13",
+                "endDate": "2022-05-14",
+                "currentMatchday": 34,
+                "winner": null,
+                "stages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "id": 329403,
+            "utcDate": "2022-05-14T13:30:00Z",
+            "status": "FINISHED",
+            "minute": "90",
+            "injuryTime": 5,
+            "attendance": null,
+            "venue": "Alte Foersterei",
+            "matchday": 34,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2022-05-15T03:33:01Z",
+            "homeTeam": {
+                "id": 28,
+                "name": "1. FC Union Berlin",
+                "shortName": "Union Berlin",
+                "tla": "UNB",
+                "crest": "https://crests.football-data.org/28.svg",
+                "coach": {
+                    "id": 77324,
+                    "name": "Urs Fischer",
+                    "nationality": "Switzerland"
+                },
+                "leagueRank": 6,
+                "formation": "3-3-2-2",
+                "lineup": [],
+                "bench": []
+            },
+            "awayTeam": {
+                "id": 36,
+                "name": "VfL Bochum 1848",
+                "shortName": "Bochum",
+                "tla": "BOC",
+                "crest": "https://crests.football-data.org/36.png",
+                "coach": {
+                    "id": 129397,
+                    "name": "Thomas Reis",
+                    "nationality": "Germany"
+                },
+                "leagueRank": 11,
+                "formation": "4-3-3",
+                "lineup": [],
+                "bench": []
+            },
+            "score": {
+                "winner": "HOME_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "home": 3,
+                    "away": 2
+                },
+                "halfTime": {
+                    "home": 2,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": 5,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 28,
+                        "name": "1. FC Union Berlin"
+                    },
+                    "scorer": {
+                        "id": 6836,
+                        "name": "Grischa Prömel"
+                    },
+                    "assist": {
+                        "id": 3280,
+                        "name": "Genki Haraguchi"
+                    },
+                    "score": {
+                        "home": 1,
+                        "away": 0
+                    }
+                },
+                {
+                    "minute": 25,
+                    "injuryTime": null,
+                    "type": "PENALTY",
+                    "team": {
+                        "id": 28,
+                        "name": "1. FC Union Berlin"
+                    },
+                    "scorer": {
+                        "id": 9218,
+                        "name": "Taiwo Awoniyi"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 2,
+                        "away": 0
+                    }
+                },
+                {
+                    "minute": 55,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 36,
+                        "name": "VfL Bochum 1848"
+                    },
+                    "scorer": {
+                        "id": 210,
+                        "name": "Simon Zoller"
+                    },
+                    "assist": {
+                        "id": 9996,
+                        "name": "Danilo Soares"
+                    },
+                    "score": {
+                        "home": 2,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 79,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 36,
+                        "name": "VfL Bochum 1848"
+                    },
+                    "scorer": {
+                        "id": 224,
+                        "name": "Eduard Löwen"
+                    },
+                    "assist": {
+                        "id": 9408,
+                        "name": "Takuma Asano"
+                    },
+                    "score": {
+                        "home": 2,
+                        "away": 2
+                    }
+                },
+                {
+                    "minute": 88,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 28,
+                        "name": "1. FC Union Berlin"
+                    },
+                    "scorer": {
+                        "id": 9218,
+                        "name": "Taiwo Awoniyi"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 3,
+                        "away": 2
+                    }
+                }
+            ],
+            "penalties": [
+                {
+                    "player": {
+                        "id": 9218,
+                        "name": "Taiwo Awoniyi"
+                    },
+                    "team": {
+                        "id": 28,
+                        "name": "1. FC Union Berlin"
+                    },
+                    "scored": true,
+                    "score": {
+                        "home": null,
+                        "away": null
+                    }
+                }
+            ],
+            "bookings": [],
+            "substitutions": [],
+            "odds": {
+                "homeWin": 1.41,
+                "draw": 4.83,
+                "awayWin": 6.88
+            },
+            "referees": [
+                {
+                    "id": 57524,
+                    "name": "Dominik Schaal",
+                    "type": "ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57525,
+                    "name": "Marcel Pelgrim",
+                    "type": "ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57518,
+                    "name": "Florian Badstübner",
+                    "type": "FOURTH_OFFICIAL",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 15821,
+                    "name": "Marco Fritz",
+                    "type": "REFEREE",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 172698,
+                    "name": "Pascal Mueller",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N1",
+                    "nationality": null
+                },
+                {
+                    "id": 8828,
+                    "name": "Thomas Stein",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                }
+            ]
+        },
+        {
+            "area": {
+                "id": 2088,
+                "name": "Germany",
+                "code": "DEU",
+                "flag": "https://crests.football-data.org/759.svg"
+            },
+            "competition": {
+                "id": 2002,
+                "name": "Bundesliga",
+                "code": "BL1",
+                "type": "LEAGUE",
+                "emblem": "https://crests.football-data.org/BL1.png"
+            },
+            "season": {
+                "id": 742,
+                "startDate": "2021-08-13",
+                "endDate": "2022-05-14",
+                "currentMatchday": 34,
+                "winner": null,
+                "stages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "id": 329404,
+            "utcDate": "2022-05-14T13:30:00Z",
+            "status": "FINISHED",
+            "minute": "90",
+            "injuryTime": 2,
+            "attendance": null,
+            "venue": null,
+            "matchday": 34,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2022-05-15T03:33:01Z",
+            "homeTeam": {
+                "id": 18,
+                "name": "Borussia Mönchengladbach",
+                "shortName": "M'gladbach",
+                "tla": "BMG",
+                "crest": "https://crests.football-data.org/18.svg",
+                "coach": {
+                    "id": 16283,
+                    "name": "Adi Hütter",
+                    "nationality": "Austria"
+                },
+                "leagueRank": 10,
+                "formation": "4-2-3-1",
+                "lineup": [],
+                "bench": []
+            },
+            "awayTeam": {
+                "id": 2,
+                "name": "TSG 1899 Hoffenheim",
+                "shortName": "Hoffenheim",
+                "tla": "TSG",
+                "crest": "https://crests.football-data.org/2.png",
+                "coach": {
+                    "id": 122191,
+                    "name": "Sebastian Hoeneß",
+                    "nationality": "Germany"
+                },
+                "leagueRank": 8,
+                "formation": "4-3-3",
+                "lineup": [],
+                "bench": []
+            },
+            "score": {
+                "winner": "HOME_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "home": 5,
+                    "away": 1
+                },
+                "halfTime": {
+                    "home": 3,
+                    "away": 1
+                }
+            },
+            "goals": [
+                {
+                    "minute": 3,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 2,
+                        "name": "TSG 1899 Hoffenheim"
+                    },
+                    "scorer": {
+                        "id": 318,
+                        "name": "Andrej Kramarić"
+                    },
+                    "assist": {
+                        "id": 10195,
+                        "name": "Robert Skov"
+                    },
+                    "score": {
+                        "home": 0,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 26,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 18,
+                        "name": "Borussia Mönchengladbach"
+                    },
+                    "scorer": {
+                        "id": 3185,
+                        "name": "Lars Stindl"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 1,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 44,
+                    "injuryTime": null,
+                    "type": "PENALTY",
+                    "team": {
+                        "id": 18,
+                        "name": "Borussia Mönchengladbach"
+                    },
+                    "scorer": {
+                        "id": 8443,
+                        "name": "Alassane Pléa"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 2,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 45,
+                    "injuryTime": 1,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 18,
+                        "name": "Borussia Mönchengladbach"
+                    },
+                    "scorer": {
+                        "id": 6681,
+                        "name": "Jonas Hofmann"
+                    },
+                    "assist": {
+                        "id": 9522,
+                        "name": "Florian Neuhaus"
+                    },
+                    "score": {
+                        "home": 3,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 53,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 18,
+                        "name": "Borussia Mönchengladbach"
+                    },
+                    "scorer": {
+                        "id": 3483,
+                        "name": "Breel Embolo"
+                    },
+                    "assist": {
+                        "id": 6681,
+                        "name": "Jonas Hofmann"
+                    },
+                    "score": {
+                        "home": 4,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 68,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 18,
+                        "name": "Borussia Mönchengladbach"
+                    },
+                    "scorer": {
+                        "id": 6681,
+                        "name": "Jonas Hofmann"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 5,
+                        "away": 1
+                    }
+                }
+            ],
+            "penalties": [
+                {
+                    "player": {
+                        "id": 8443,
+                        "name": "Alassane Pléa"
+                    },
+                    "team": {
+                        "id": 18,
+                        "name": "Borussia Mönchengladbach"
+                    },
+                    "scored": true,
+                    "score": {
+                        "home": null,
+                        "away": null
+                    }
+                }
+            ],
+            "bookings": [],
+            "substitutions": [],
+            "odds": {
+                "homeWin": 2.07,
+                "draw": 4.1,
+                "awayWin": 3.0
+            },
+            "referees": [
+                {
+                    "id": 57509,
+                    "name": "Robert Kempter",
+                    "type": "ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 340,
+                    "name": "Benedikt Kempkes",
+                    "type": "ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57522,
+                    "name": "Aarne Aarnink",
+                    "type": "FOURTH_OFFICIAL",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 253,
+                    "name": "Harm Osmers",
+                    "type": "REFEREE",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57515,
+                    "name": "Sören Storks",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 43953,
+                    "name": "Markus Häcker",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                }
+            ]
+        },
+        {
+            "area": {
+                "id": 2088,
+                "name": "Germany",
+                "code": "DEU",
+                "flag": "https://crests.football-data.org/759.svg"
+            },
+            "competition": {
+                "id": 2002,
+                "name": "Bundesliga",
+                "code": "BL1",
+                "type": "LEAGUE",
+                "emblem": "https://crests.football-data.org/BL1.png"
+            },
+            "season": {
+                "id": 742,
+                "startDate": "2021-08-13",
+                "endDate": "2022-05-14",
+                "currentMatchday": 34,
+                "winner": null,
+                "stages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "id": 329405,
+            "utcDate": "2022-05-14T13:30:00Z",
+            "status": "FINISHED",
+            "minute": "90",
+            "injuryTime": 8,
+            "attendance": null,
+            "venue": null,
+            "matchday": 34,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2022-05-15T03:33:01Z",
+            "homeTeam": {
+                "id": 10,
+                "name": "VfB Stuttgart",
+                "shortName": "Stuttgart",
+                "tla": "VFB",
+                "crest": "https://crests.football-data.org/10.svg",
+                "coach": {
+                    "id": 10232,
+                    "name": "Pellegrino Matarazzo",
+                    "nationality": "USA"
+                },
+                "leagueRank": 16,
+                "formation": "4-1-3-2",
+                "lineup": [],
+                "bench": []
+            },
+            "awayTeam": {
+                "id": 1,
+                "name": "1. FC Köln",
+                "shortName": "1. FC Köln",
+                "tla": "KOE",
+                "crest": "https://crests.football-data.org/1.png",
+                "coach": {
+                    "id": 45595,
+                    "name": "Steffen Baumgart",
+                    "nationality": "Germany"
+                },
+                "leagueRank": 7,
+                "formation": "4-2-3-1",
+                "lineup": [],
+                "bench": []
+            },
+            "score": {
+                "winner": "HOME_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "halfTime": {
+                    "home": 1,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": 12,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 10,
+                        "name": "VfB Stuttgart"
+                    },
+                    "scorer": {
+                        "id": 10761,
+                        "name": "Saša Kalajdžić"
+                    },
+                    "assist": {
+                        "id": 206,
+                        "name": "Chris Führich"
+                    },
+                    "score": {
+                        "home": 1,
+                        "away": 0
+                    }
+                },
+                {
+                    "minute": 59,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 1,
+                        "name": "1. FC Köln"
+                    },
+                    "scorer": {
+                        "id": 21528,
+                        "name": "Anthony Modeste"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 1,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 90,
+                    "injuryTime": 2,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 10,
+                        "name": "VfB Stuttgart"
+                    },
+                    "scorer": {
+                        "id": 3269,
+                        "name": "Wataru Endō"
+                    },
+                    "assist": {
+                        "id": 48657,
+                        "name": "Hiroki Ito"
+                    },
+                    "score": {
+                        "home": 2,
+                        "away": 1
+                    }
+                }
+            ],
+            "penalties": [
+                {
+                    "player": {
+                        "id": 10761,
+                        "name": "Saša Kalajdžić"
+                    },
+                    "team": {
+                        "id": 10,
+                        "name": "VfB Stuttgart"
+                    },
+                    "scored": false,
+                    "score": {
+                        "home": null,
+                        "away": null
+                    }
+                }
+            ],
+            "bookings": [],
+            "substitutions": [],
+            "odds": {
+                "homeWin": 2.39,
+                "draw": 3.75,
+                "awayWin": 2.68
+            },
+            "referees": [
+                {
+                    "id": 57534,
+                    "name": "Jan Neitzel",
+                    "type": "ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57521,
+                    "name": "René Rohde",
+                    "type": "ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57527,
+                    "name": "Timo Gerach",
+                    "type": "FOURTH_OFFICIAL",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57519,
+                    "name": "Robert Schröder",
+                    "type": "REFEREE",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57542,
+                    "name": "Günter Perl",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 9568,
+                    "name": "Christian Fischer",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N2",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "area": {
+                "id": 2088,
+                "name": "Germany",
+                "code": "DEU",
+                "flag": "https://crests.football-data.org/759.svg"
+            },
+            "competition": {
+                "id": 2002,
+                "name": "Bundesliga",
+                "code": "BL1",
+                "type": "LEAGUE",
+                "emblem": "https://crests.football-data.org/BL1.png"
+            },
+            "season": {
+                "id": 742,
+                "startDate": "2021-08-13",
+                "endDate": "2022-05-14",
+                "currentMatchday": 34,
+                "winner": null,
+                "stages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "id": 329406,
+            "utcDate": "2022-05-14T13:30:00Z",
+            "status": "FINISHED",
+            "minute": "90",
+            "injuryTime": 2,
+            "attendance": null,
+            "venue": null,
+            "matchday": 34,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2022-05-15T03:33:01Z",
+            "homeTeam": {
+                "id": 15,
+                "name": "1. FSV Mainz 05",
+                "shortName": "Mainz",
+                "tla": "M05",
+                "crest": "https://crests.football-data.org/15.svg",
+                "coach": {
+                    "id": 124245,
+                    "name": "Bo Svensson",
+                    "nationality": "Denmark"
+                },
+                "leagueRank": 9,
+                "formation": "3-4-2-1",
+                "lineup": [],
+                "bench": []
+            },
+            "awayTeam": {
+                "id": 19,
+                "name": "Eintracht Frankfurt",
+                "shortName": "Frankfurt",
+                "tla": "SGE",
+                "crest": "https://crests.football-data.org/19.svg",
+                "coach": {
+                    "id": 10727,
+                    "name": "Oliver Glasner",
+                    "nationality": "Austria"
+                },
+                "leagueRank": 12,
+                "formation": "3-4-2-1",
+                "lineup": [],
+                "bench": []
+            },
+            "score": {
+                "winner": "DRAW",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "home": 2,
+                    "away": 2
+                },
+                "halfTime": {
+                    "home": 1,
+                    "away": 2
+                }
+            },
+            "goals": [
+                {
+                    "minute": 10,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 15,
+                        "name": "1. FSV Mainz 05"
+                    },
+                    "scorer": {
+                        "id": 8989,
+                        "name": "Marcus Ingvartsen"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 1,
+                        "away": 0
+                    }
+                },
+                {
+                    "minute": 26,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 19,
+                        "name": "Eintracht Frankfurt"
+                    },
+                    "scorer": {
+                        "id": 99357,
+                        "name": "Tuta"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 1,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 35,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 19,
+                        "name": "Eintracht Frankfurt"
+                    },
+                    "scorer": {
+                        "id": 11680,
+                        "name": "Rafael Borré"
+                    },
+                    "assist": {
+                        "id": 150860,
+                        "name": "Ansgar Knauff"
+                    },
+                    "score": {
+                        "home": 1,
+                        "away": 2
+                    }
+                },
+                {
+                    "minute": 49,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 15,
+                        "name": "1. FSV Mainz 05"
+                    },
+                    "scorer": {
+                        "id": 8989,
+                        "name": "Marcus Ingvartsen"
+                    },
+                    "assist": {
+                        "id": 65843,
+                        "name": "Anton Stach"
+                    },
+                    "score": {
+                        "home": 2,
+                        "away": 2
+                    }
+                }
+            ],
+            "penalties": [],
+            "bookings": [],
+            "substitutions": [],
+            "odds": {
+                "homeWin": 1.66,
+                "draw": 4.24,
+                "awayWin": 4.59
+            },
+            "referees": [
+                {
+                    "id": 57533,
+                    "name": "Alexander Sather",
+                    "type": "ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57727,
+                    "name": "Robert Wessel",
+                    "type": "ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 254,
+                    "name": "Thomas Gorniak",
+                    "type": "FOURTH_OFFICIAL",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 15825,
+                    "name": "Martin Petersen",
+                    "type": "REFEREE",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57735,
+                    "name": "Michael Bacher",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57511,
+                    "name": "Markus Sinn",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                }
+            ]
+        },
+        {
+            "area": {
+                "id": 2088,
+                "name": "Germany",
+                "code": "DEU",
+                "flag": "https://crests.football-data.org/759.svg"
+            },
+            "competition": {
+                "id": 2002,
+                "name": "Bundesliga",
+                "code": "BL1",
+                "type": "LEAGUE",
+                "emblem": "https://crests.football-data.org/BL1.png"
+            },
+            "season": {
+                "id": 742,
+                "startDate": "2021-08-13",
+                "endDate": "2022-05-14",
+                "currentMatchday": 34,
+                "winner": null,
+                "stages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "id": 329407,
+            "utcDate": "2022-05-14T13:30:00Z",
+            "status": "FINISHED",
+            "minute": "90",
+            "injuryTime": 6,
+            "attendance": 27907,
+            "venue": null,
+            "matchday": 34,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2022-05-15T03:33:01Z",
+            "homeTeam": {
+                "id": 16,
+                "name": "FC Augsburg",
+                "shortName": "Augsburg",
+                "tla": "FCA",
+                "crest": "https://crests.football-data.org/16.svg",
+                "coach": {
+                    "id": 97248,
+                    "name": "Markus Weinzierl",
+                    "nationality": "Germany"
+                },
+                "leagueRank": 14,
+                "formation": "4-4-2",
+                "lineup": [],
+                "bench": []
+            },
+            "awayTeam": {
+                "id": 21,
+                "name": "SpVgg Greuther Fürth 1903",
+                "shortName": "Greuther Fürth",
+                "tla": "FUR",
+                "crest": "https://crests.football-data.org/21.svg",
+                "coach": {
+                    "id": null,
+                    "name": null,
+                    "nationality": null
+                },
+                "leagueRank": 18,
+                "formation": "3-5-2",
+                "lineup": [],
+                "bench": []
+            },
+            "score": {
+                "winner": "HOME_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "home": 2,
+                    "away": 1
+                },
+                "halfTime": {
+                    "home": 1,
+                    "away": 1
+                }
+            },
+            "goals": [
+                {
+                    "minute": 11,
+                    "injuryTime": null,
+                    "type": "PENALTY",
+                    "team": {
+                        "id": 16,
+                        "name": "FC Augsburg"
+                    },
+                    "scorer": {
+                        "id": 6506,
+                        "name": "Daniel Caligiuri"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 1,
+                        "away": 0
+                    }
+                },
+                {
+                    "minute": 24,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 21,
+                        "name": "SpVgg Greuther Fürth 1903"
+                    },
+                    "scorer": {
+                        "id": 123049,
+                        "name": "Jessic Ngankam"
+                    },
+                    "assist": {
+                        "id": 120963,
+                        "name": "Tobias Raschl"
+                    },
+                    "score": {
+                        "home": 1,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 84,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 16,
+                        "name": "FC Augsburg"
+                    },
+                    "scorer": {
+                        "id": 6661,
+                        "name": "Michael Gregoritsch"
+                    },
+                    "assist": {
+                        "id": 6562,
+                        "name": "Arne Maier"
+                    },
+                    "score": {
+                        "home": 2,
+                        "away": 1
+                    }
+                }
+            ],
+            "penalties": [
+                {
+                    "player": {
+                        "id": 6506,
+                        "name": "Daniel Caligiuri"
+                    },
+                    "team": {
+                        "id": 16,
+                        "name": "FC Augsburg"
+                    },
+                    "scored": true,
+                    "score": {
+                        "home": null,
+                        "away": null
+                    }
+                }
+            ],
+            "bookings": [],
+            "substitutions": [],
+            "odds": {
+                "homeWin": 1.54,
+                "draw": 4.58,
+                "awayWin": 5.42
+            },
+            "referees": [
+                {
+                    "id": 177,
+                    "name": "Christian Bandurski",
+                    "type": "ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 43921,
+                    "name": "Guido Kleve",
+                    "type": "ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57679,
+                    "name": "Nicolas Winter",
+                    "type": "FOURTH_OFFICIAL",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57512,
+                    "name": "Tobias Reichel",
+                    "type": "REFEREE",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57537,
+                    "name": "Johann Pfeifer",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 15822,
+                    "name": "Holger Henschel",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N2",
+                    "nationality": null
+                }
+            ]
+        },
+        {
+            "area": {
+                "id": 2088,
+                "name": "Germany",
+                "code": "DEU",
+                "flag": "https://crests.football-data.org/759.svg"
+            },
+            "competition": {
+                "id": 2002,
+                "name": "Bundesliga",
+                "code": "BL1",
+                "type": "LEAGUE",
+                "emblem": "https://crests.football-data.org/BL1.png"
+            },
+            "season": {
+                "id": 742,
+                "startDate": "2021-08-13",
+                "endDate": "2022-05-14",
+                "currentMatchday": 34,
+                "winner": null,
+                "stages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "id": 329408,
+            "utcDate": "2022-05-14T13:30:00Z",
+            "status": "FINISHED",
+            "minute": "90",
+            "injuryTime": 5,
+            "attendance": 22719,
+            "venue": null,
+            "matchday": 34,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2022-05-15T03:33:01Z",
+            "homeTeam": {
+                "id": 38,
+                "name": "Arminia Bielefeld",
+                "shortName": "Bielefeld",
+                "tla": "BIE",
+                "crest": "https://crests.football-data.org/38.svg",
+                "coach": {
+                    "id": 179890,
+                    "name": "Marco Kostmann",
+                    "nationality": null
+                },
+                "leagueRank": 17,
+                "formation": "4-3-3",
+                "lineup": [],
+                "bench": []
+            },
+            "awayTeam": {
+                "id": 721,
+                "name": "RB Leipzig",
+                "shortName": "RB Leipzig",
+                "tla": "RBL",
+                "crest": "https://crests.football-data.org/721.png",
+                "coach": {
+                    "id": 10239,
+                    "name": "Domenico Tedesco",
+                    "nationality": "Germany"
+                },
+                "leagueRank": 4,
+                "formation": "3-4-2-1",
+                "lineup": [],
+                "bench": []
+            },
+            "score": {
+                "winner": "DRAW",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "halfTime": {
+                    "home": 0,
+                    "away": 0
+                }
+            },
+            "goals": [
+                {
+                    "minute": 70,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 38,
+                        "name": "Arminia Bielefeld"
+                    },
+                    "scorer": {
+                        "id": 10010,
+                        "name": "Janni-Luca Serra"
+                    },
+                    "assist": null,
+                    "score": {
+                        "home": 1,
+                        "away": 0
+                    }
+                },
+                {
+                    "minute": 90,
+                    "injuryTime": 3,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 721,
+                        "name": "RB Leipzig"
+                    },
+                    "scorer": {
+                        "id": 9537,
+                        "name": "Willi Orban"
+                    },
+                    "assist": {
+                        "id": 16347,
+                        "name": "Dominik Szoboszlai"
+                    },
+                    "score": {
+                        "home": 1,
+                        "away": 1
+                    }
+                }
+            ],
+            "penalties": [],
+            "bookings": [],
+            "substitutions": [],
+            "odds": {
+                "homeWin": 8.29,
+                "draw": 5.52,
+                "awayWin": 1.33
+            },
+            "referees": [
+                {
+                    "id": 15409,
+                    "name": "Jan Seidel",
+                    "type": "ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 43880,
+                    "name": "Rafael Foltyn",
+                    "type": "ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57704,
+                    "name": "Florian Lechner",
+                    "type": "FOURTH_OFFICIAL",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 15408,
+                    "name": "Daniel Siebert",
+                    "type": "REFEREE",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 56187,
+                    "name": "Guido Winkmann",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 43877,
+                    "name": "Stefan Lupp",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                }
+            ]
+        },
+        {
+            "area": {
+                "id": 2088,
+                "name": "Germany",
+                "code": "DEU",
+                "flag": "https://crests.football-data.org/759.svg"
+            },
+            "competition": {
+                "id": 2002,
+                "name": "Bundesliga",
+                "code": "BL1",
+                "type": "LEAGUE",
+                "emblem": "https://crests.football-data.org/BL1.png"
+            },
+            "season": {
+                "id": 742,
+                "startDate": "2021-08-13",
+                "endDate": "2022-05-14",
+                "currentMatchday": 34,
+                "winner": null,
+                "stages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "id": 329401,
+            "utcDate": "2022-05-14T13:35:00Z",
+            "status": "FINISHED",
+            "minute": "90",
+            "injuryTime": 4,
+            "attendance": null,
+            "venue": "Volkswagen Arena",
+            "matchday": 34,
+            "stage": "REGULAR_SEASON",
+            "group": null,
+            "lastUpdated": "2022-05-15T03:33:01Z",
+            "homeTeam": {
+                "id": 11,
+                "name": "VfL Wolfsburg",
+                "shortName": "Wolfsburg",
+                "tla": "WOB",
+                "crest": "https://crests.football-data.org/11.svg",
+                "coach": {
+                    "id": 45082,
+                    "name": "Florian Kohfeldt",
+                    "nationality": "Germany"
+                },
+                "leagueRank": 13,
+                "formation": "4-3-3",
+                "lineup": [],
+                "bench": []
+            },
+            "awayTeam": {
+                "id": 5,
+                "name": "FC Bayern München",
+                "shortName": "Bayern",
+                "tla": "FCB",
+                "crest": "https://crests.football-data.org/5.svg",
+                "coach": {
+                    "id": 336,
+                    "name": "Julian Nagelsmann",
+                    "nationality": "Germany"
+                },
+                "leagueRank": 1,
+                "formation": "3-4-2-1",
+                "lineup": [],
+                "bench": []
+            },
+            "score": {
+                "winner": "DRAW",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "home": 2,
+                    "away": 2
+                },
+                "halfTime": {
+                    "home": 1,
+                    "away": 2
+                }
+            },
+            "goals": [
+                {
+                    "minute": 17,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 5,
+                        "name": "FC Bayern München"
+                    },
+                    "scorer": {
+                        "id": 122188,
+                        "name": "Josip Stanišić"
+                    },
+                    "assist": {
+                        "id": 359,
+                        "name": "Joshua Kimmich"
+                    },
+                    "score": {
+                        "home": 0,
+                        "away": 1
+                    }
+                },
+                {
+                    "minute": 40,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 5,
+                        "name": "FC Bayern München"
+                    },
+                    "scorer": {
+                        "id": 371,
+                        "name": "Robert Lewandowski"
+                    },
+                    "assist": {
+                        "id": 370,
+                        "name": "Thomas Müller"
+                    },
+                    "score": {
+                        "home": 0,
+                        "away": 2
+                    }
+                },
+                {
+                    "minute": 45,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 11,
+                        "name": "VfL Wolfsburg"
+                    },
+                    "scorer": {
+                        "id": 16335,
+                        "name": "Jonas Wind"
+                    },
+                    "assist": {
+                        "id": 9463,
+                        "name": "Max Kruse"
+                    },
+                    "score": {
+                        "home": 1,
+                        "away": 2
+                    }
+                },
+                {
+                    "minute": 58,
+                    "injuryTime": null,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 11,
+                        "name": "VfL Wolfsburg"
+                    },
+                    "scorer": {
+                        "id": 9463,
+                        "name": "Max Kruse"
+                    },
+                    "assist": {
+                        "id": 131177,
+                        "name": "Mickey van de Ven"
+                    },
+                    "score": {
+                        "home": 2,
+                        "away": 2
+                    }
+                }
+            ],
+            "penalties": [],
+            "bookings": [],
+            "substitutions": [],
+            "odds": {
+                "homeWin": 5.05,
+                "draw": 4.86,
+                "awayWin": 1.52
+            },
+            "referees": [
+                {
+                    "id": 57505,
+                    "name": "Christian Leicher",
+                    "type": "ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57703,
+                    "name": "Marcel Unger",
+                    "type": "ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57523,
+                    "name": "Sven Waschitzki",
+                    "type": "FOURTH_OFFICIAL",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 57504,
+                    "name": "Robert Hartmann",
+                    "type": "REFEREE",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 174,
+                    "name": "Markus Schmidt",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N1",
+                    "nationality": "Germany"
+                },
+                {
+                    "id": 255,
+                    "name": "Markus Wollenweber",
+                    "type": "VIDEO_ASSISTANT_REFEREE_N2",
+                    "nationality": "Germany"
+                }
+            ]
+        }
+    ]
+}

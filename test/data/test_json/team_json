@@ -1,0 +1,16 @@
+{
+    "id": 9,
+    "name": "Hertha BSC",
+    "shortName": "Hertha BSC",
+    "tla": "BSC",
+    "crest": "https://crests.football-data.org/9.svg",
+    "coach": {
+        "id": 156101,
+        "name": "Felix Magath",
+        "nationality": "Germany"
+    },
+    "leagueRank": 15,
+    "formation": "4-2-3-1",
+    "lineup": [],
+    "bench": []
+}
