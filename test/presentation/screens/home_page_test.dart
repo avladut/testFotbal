@@ -7,12 +7,7 @@ import 'package:get_it/get_it.dart';
 import 'package:golden_toolkit/golden_toolkit.dart';
 import 'package:mocktail/mocktail.dart';
 
-class MockHomeBloc extends Mock implements HomePageBloc {
-  @override
-  void getWinningTeam() {
-    // TODO: implement getWinningTeam
-  }
-}
+class MockHomeBloc extends Mock implements HomePageBloc {}
 
 Future<void> main() async {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -32,7 +27,7 @@ Future<void> main() async {
       //should not be needed
       when(() => mockBloc.state).thenReturn(HomePageStateLoading());
 
-      await tester.pumpWidgetBuilder(HomePage());
+      await tester.pumpWidgetBuilder(const HomePage());
 
       await multiScreenGolden(tester, 'home_page_initial');
     },
