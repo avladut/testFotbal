@@ -1,3 +1,8 @@
-abstract class HomePageEvent {}
+import 'package:equatable/equatable.dart';
 
-class GetWinningTeam extends HomePageEvent {}
+abstract class HomePageEvent extends Equatable {}
+
+class GetWinningTeam extends HomePageEvent {
+  @override
+  List<Object?> get props => [];
+}

@@ -9,11 +9,6 @@ class ApiImpl extends Api {
   @override
   Future<List<MatchDTO>> getRecentMatches() async {
     List<MatchDTO> matches = [];
-    final queryParameters = {
-      'dateFrom': DateTime(2022),
-      'dateTo': DateTime.now(),
-    };
-
     await http.get(
       Uri.parse(
           'http://api.football-data.org/v4/competitions/PL/matches?matchday=10'),

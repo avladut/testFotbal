@@ -17,16 +17,21 @@ class HomePageBloc extends Bloc<HomePageEvent, HomePageState> {
 
   void getWinningTeam() {
     emit(HomePageStateLoading());
-    service.getMatches().then((matches) async {
-      if (matches.isEmpty) {
-        emit(HomePageStateLoadingError('there were no matches to be found'));
-      } else {
-        final Team? winner = await _getTeamWithMostWins(matches);
-        emit(HomePageStateDataLoadedSuccess(winner));
-      }
-    }).onError((error, stackTrace) {
-      emit(HomePageStateLoadingError('something went wrong with the request'));
-    });
+    try {
+      service.getMatches().then((matches) async {
+        if (matches.isEmpty) {
+          emit(HomePageStateLoadingError('there were no matches to be found'));
+        } else {
+          final Team? winner = await _getTeamWithMostWins(matches);
+          emit(HomePageStateDataLoadedSuccess(winner));
+        }
+      }).onError((error, stackTrace) {
+        emit(
+            HomePageStateLoadingError('something went wrong with the request'));
+      });
+    } catch (e) {
+      emit(HomePageStateLoadingError('something went wrong'));
+    }
   }
 
 //spagetti code, I should refactor this into something more elegant

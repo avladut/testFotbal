@@ -4,7 +4,6 @@ import 'package:fotbal_project/domain/models/team.dart';
 import 'package:fotbal_project/presentation/blocs/home_page_bloc/home_page_bloc.dart';
 import 'package:fotbal_project/presentation/blocs/home_page_bloc/home_page_events.dart';
 import 'package:fotbal_project/presentation/blocs/home_page_bloc/home_page_state.dart';
-import 'package:fotbal_project/utils/locator.dart';
 import 'package:get_it/get_it.dart';
 
 class HomePage extends StatefulWidget {
